@@ -2,11 +2,14 @@ def my_hash = {"my_name" => "Saajid"}
 end 
 
 
-def shipping_manifest
+def shipping_manifest = {
   # set a variable called `the_manifest`, equal to a hash
   # fill that hash with key/value pairs that describe the following information: 
   # We have 5 whale bone corsets, 2 porcelain vases and 3 oil paintings 
-
+"whale bone coreset" => 5, 
+"porcelain vase" => 2, 
+"oil painting" => 3 
+}
 
 end
 
